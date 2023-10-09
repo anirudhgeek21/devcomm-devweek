@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>bmi</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <h1 style="width:50%;margin:5% auto;">YOUR BMI CALCULATOR</h1>
+        <div class="bmifrm">
+            <form>
+                <div>
+                    <label for = "weight"> Weight(Kg) : </label>
+                    <input class="weight" name = "weight"/>
+                </div>
+                <div>
+                    <label for = "height"> Height(m) : </label>
+                    <input class="height" name = "height"/>
+                </div>
+                <div>
+                  <label for = "female"> female : </label>
+                  <input type="radio" name="gender" value="female"/>
+                  <label for = "female"> male : </label>
+                  <input type="radio" name="gender" value="male"/>
+                  <label for = "female"> other : </label>
+                  <input type="radio" name="gender" value="other"/>
+                </div>
+                <button type = "submit"> SUBMIT </button>
+            </form>
+            <div class="result">
+              Your Bmi is :
+            </div>
+        </div>
+        <script src="script.js"> </script>
+    </body>
+</html>

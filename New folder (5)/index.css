@@ -1,0 +1,67 @@
+*{
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.bmifrm{
+    margin:auto;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-top: 5%;
+}
+
+form div{
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100px; 
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px; 
+    background-color: black;
+    color: white;
+    
+}
+
+
+.weight:hover, .height:hover {
+    width: 150px;
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+button {
+    background-color: black;
+    color:white;
+    border-radius: 10px; 
+    margin: 10px auto;
+    padding:9px;
+}
+
+button:hover{
+    transition-timing-function: ease;
+    background-color: white;
+    border-radius: 10px; 
+    margin: 10px auto;
+    padding: 15px;
+    transition-duration: 1s;
+    color: black;
+    
+
+}
+
+.result{
+  padding: 20px;
+  background-color: gainsboro;
+  margin-top: 30px;
+}
